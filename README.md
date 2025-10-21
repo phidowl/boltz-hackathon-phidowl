@@ -11,6 +11,23 @@
 
 ![](docs/boltz1_pred_figure.png)
 
+## 🏆 Hackathon Improvements (October 2025)
+
+This fork includes enhanced implementations submitted for the M-Boltz hackathon:
+
+### Key Improvements
+1. **4x Increased Sampling**: Expanded diffusion samples from 5 to 20 per structure for better conformational space exploration
+2. **Confidence-Based Ranking**: Implemented intelligent model selection using Boltz confidence scores instead of arbitrary ordering
+3. **Robust Fallback**: Added automatic detection and graceful fallback when confidence data unavailable
+
+**Contributor:** phidowl  
+**Challenges:** Antibody-Antigen Complex Prediction & Allosteric-Orthosteric Ligand Prediction  
+**Modified Files:** `hackathon/predict_hackathon.py`
+
+See [hackathon README](hackathon/README_Hackathon.md) for detailed instructions.
+
+---
+
 ## Hackathon Instructions
 
 Please refer to the [hackathon README](hackathon/README_Hackathon.md) for instructions on how to participate in the Boltz hackathon.
